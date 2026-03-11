@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #1f2937;
+  font-family: "Roboto", sans-serif;
+}
+
+.navHolder {
+  margin: 0 54px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+.navHolder nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.navHolder nav ul li {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-right: 20px;
+}
+.navHolder nav ul li:last-of-type {
+  margin-right: 0;
+}
